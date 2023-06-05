@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- set up a centered box that has wood paneling -->
+    <div class="vertBox"> <!-- has 3 elements stacked vertically -->
+        <div class="horizPanel"></div>
+        <div class="box"> <!-- has 3 elements horizontally -->
+            <div class="sideBox"></div>
+            <!-- inBox contains the modern ATM -->
+            <div class="inBox">
+              <div class="upperInBox">WELCOME</div>
+              <div class="touchScreenInBox">
+                <div class="touchScreenButtonCont">
+                  <div class="fourStackedButtons" onclick="showBallance()">click</div>
+                  <div class="fourStackedButtons" onclick="addToBallance()"></div>
+                  <div class="fourStackedButtons"></div>
+                  <div class="fourStackedButtons"  onclick="subtractFromBallance('100')">quick cash</div>
+                </div>
+                <div class="touchScreenDisplayCont">
+                  <div class="fourStackedDisplays">Ballance</div>
+                  <div class="fourStackedDisplays">Deposit</div>
+                  <div class="fourStackedDisplays"></div>
+                  <div class="fourStackedDisplays">$100</div>
+                </div>
+                <div class="touchScreenDisplayCont">
+                  <div class="fourStackedDisplays">$20</div>
+                  <div class="fourStackedDisplays">$40</div>
+                  <div class="fourStackedDisplays">$60</div>
+                  <div class="fourStackedDisplays">$80</div>
+                </div>
+                <div class="touchScreenButtonCont">
+                  <div class="fourStackedButtons" onclick="subtractFromBallance('20')">quick cash</div>
+                  <div class="fourStackedButtons" onclick="subtractFromBallance('40')">quick cash</div>
+                  <div class="fourStackedButtons" onclick="subtractFromBallance('60')">quick cash</div>
+                  <div class="fourStackedButtons" onclick="subtractFromBallance('80')">quick cash</div>
+                </div>
+              </div>
+              <div class="lowerInBox"></div>
+            </div>
+            <div class="sideBox"></div>
+        </div>
+        <div class="horizPanel"></div>
+    </div>
+
+
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>
+
+
+

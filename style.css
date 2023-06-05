@@ -1,0 +1,91 @@
+body{
+    background-image: url(logcabinwall.jpeg);
+    background-color: gold;
+    background-size: cover;
+}
+.vertBox{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 4em;
+    height: 40em; 
+    width: 30em; 
+    margin-right: auto;
+    margin-left: auto;
+}
+.horizPanel{
+    width: 30em; 
+    height: 3em; 
+    background-image: url(horizPlank.jpeg);
+    background-size: cover;
+}
+.box{
+    display: flex; 
+    height: 34em; 
+    width: 30em; 
+}
+.inBox{
+    display: flex; 
+    flex-direction: column;
+    background-color: white;
+    height: 34em; 
+    width: 24em; 
+}
+.sideBox{
+    height: 34em; 
+    width: 3em; 
+    background-image: url(vertPlank.jpeg);
+    background-size: cover;
+}
+/* this section is the touch screen */
+.upperInBox{
+    height: 5em; 
+    width: 24em; 
+    border: solid black; 
+    padding-top: 2em;
+    text-align: center;
+}
+.touchScreenInBox{
+    display: flex; 
+    height: 14em; 
+    width: 24em; 
+    border: solid black; 
+}
+.lowerInBox{
+    height: 15em; 
+    width: 24em; 
+    border: solid black; 
+    text-align: center;
+    padding-top: 5em;
+}
+.touchScreenDisplayCont{
+    display: flex; 
+    flex-direction: column;
+    height: 14em;
+    width: 8.5em; 
+    /* border: solid black;  */
+}
+.touchScreenButtonCont{
+    display: flex; 
+    flex-direction: column;
+    height: 14em;
+    width: 3.5em; 
+    /* border: solid black; */
+}
+.fourStackedButtons{
+    border: solid black; 
+    height: 3.5em; 
+    width: 3.5em; 
+    text-align: center; 
+    padding-top: .5em;
+}
+.fourStackedDisplays{
+    border: solid black; 
+    height: 3.5em; 
+    width: 136px; /* equals 8.5em */
+    text-align: center;
+    padding-top: 1em;
+}
+
+.fourStackedButtons:hover{
+    background-color: lightgreen;
+}
